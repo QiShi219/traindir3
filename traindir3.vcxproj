@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E3ED0953-EC1B-4410-9F0B-492B20CB3777}</ProjectGuid>
+    <RootNamespace>traindir3</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\Release\</OutDir>
+    <IntDir>..\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>..\Debug\</OutDir>
+    <IntDir>..\Debug\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/traindir3.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\wxwidgets-2.8.11\lib\vc_lib\msw;..\..\wxwidgets-2.8.11\include;.;..\..\wxwidgets-2.8.11\samples;..\..\wxWidgets-2.8.11\contrib\include;..\..\wxWidgets-2.8.11\include;..\..\wxWidgets-2.8.11\lib\vc_dll\msw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;__WXMSW__;__WXDEBUG__;WXUSINGDLL;_WINDOWS;NOPCH;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>$(IntDir)traindir3.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>..\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>wxmsw28_html.lib;wxmsw28_adv.lib;wxmsw28_core.lib;wxbase28_xml.lib;wxbase28_net.lib;wxbase28.lib;odbc32.lib;odbccp32.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>..\binrel/traindir3.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\wxWidgets-2.8.11\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>..\Release/traindir3.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>true</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\Release/traindir3.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/traindir3.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\wxwidgets-2.8.11\lib\vc_lib\mswd;..\..\wxwidgets-2.8.11\include;.;..\..\wxwidgets-2.8.11\samples;..\utils;..\..\wxWidgets-2.8.11\contrib\include;..\..\wxWidgets-2.8.11\include;..\..\wxWidgets-2.8.11\lib\vc_dll\mswd;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__WXMSW__;__WXDEBUG__;WXUSINGDLL;NOPCH;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>..\Debug/traindir3.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>..\Debug/</AssemblerListingLocation>
+      <ObjectFileName>..\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>..\Debug/</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>wxmsw28d_html.lib;wxmsw28d_adv.lib;wxmsw28d_core.lib;wxbase28d_xml.lib;wxbase28d_net.lib;wxbase28d.lib;odbc32.lib;odbccp32.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../bin/traindir3.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\..\wxWidgets-2.8.11\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>..\Debug/traindir3.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\Debug/traindir3.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ai.cpp" />
+    <ClCompile Include="AlertList.cpp" />
+    <ClCompile Include="Alerts.cpp" />
+    <ClCompile Include="AppMainLoop.cpp" />
+    <ClCompile Include="AssignDialog.cpp" />
+    <ClCompile Include="Canvas.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="ClientConnection.cpp" />
+    <ClCompile Include="ConfigDialog.cpp" />
+    <ClCompile Include="CSV.cpp" />
+    <ClCompile Include="DaysDialog.cpp" />
+    <ClCompile Include="espanol.cpp" />
+    <ClCompile Include="FontManager.cpp" />
+    <ClCompile Include="GraphView.cpp" />
+    <ClCompile Include="GTFS.cpp" />
+    <ClCompile Include="HostLock.cpp" />
+    <ClCompile Include="HostThread.cpp" />
+    <ClCompile Include="html.cpp" />
+    <ClCompile Include="HtmlView.cpp" />
+    <ClCompile Include="http.cpp" />
+    <ClCompile Include="italiano.cpp" />
+    <ClCompile Include="Itinerary.cpp" />
+    <ClCompile Include="ItineraryDialog.cpp" />
+    <ClCompile Include="ItineraryView.cpp" />
+    <ClCompile Include="LateGraphView.cpp" />
+    <ClCompile Include="loadsave.cpp" />
+    <ClCompile Include="Localize.cpp" />
+    <ClCompile Include="Lock.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="mongoose.c" />
+    <ClCompile Include="MotivePower.cpp" />
+    <ClCompile Include="NotebookMgr.cpp" />
+    <ClCompile Include="Options.cpp" />
+    <ClCompile Include="OptionsDialog.cpp" />
+    <ClCompile Include="PlatformGraph.cpp" />
+    <ClCompile Include="Puzzles.cpp" />
+    <ClCompile Include="ReportBase.cpp" />
+    <ClCompile Include="run.cpp" />
+    <ClCompile Include="ScenarioInfoDialog.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="SignalDialog.cpp" />
+    <ClCompile Include="SkinColorsDialog.cpp" />
+    <ClCompile Include="StationInfoDialog.cpp" />
+    <ClCompile Include="StringBuilder.cpp" />
+    <ClCompile Include="SwitchBoard.cpp" />
+    <ClCompile Include="SwitchboardNameDialog.cpp" />
+    <ClCompile Include="SwitchboardView.cpp" />
+    <ClCompile Include="TConfig.cpp" />
+    <ClCompile Include="TDFile.cpp" />
+    <ClCompile Include="tdscript.cpp" />
+    <ClCompile Include="TimeTable.cpp" />
+    <ClCompile Include="TimeTblView.cpp" />
+    <ClCompile Include="ToolsView.cpp" />
+    <ClCompile Include="track.cpp" />
+    <ClCompile Include="TrackDialog.cpp" />
+    <ClCompile Include="TrackScriptDialog.cpp" />
+    <ClCompile Include="Train.cpp" />
+    <ClCompile Include="TrainInfoDialog.cpp" />
+    <ClCompile Include="TrainInfoList.cpp" />
+    <ClCompile Include="TriggerDialog.cpp" />
+    <ClCompile Include="trsim.cpp" />
+    <ClCompile Include="TSignal.cpp" />
+    <ClCompile Include="TVector.cpp" />
+    <ClCompile Include="WebServices.cpp" />
+    <ClCompile Include="WSGenTT.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlertList.h" />
+    <ClInclude Include="Alerts.h" />
+    <ClInclude Include="Array.h" />
+    <ClInclude Include="AssignDialog.h" />
+    <ClInclude Include="Canvas.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="ClientConnection.h" />
+    <ClInclude Include="color.h" />
+    <ClInclude Include="ConfigDialog.h" />
+    <ClInclude Include="CSV.h" />
+    <ClInclude Include="DaysDialog.h" />
+    <ClInclude Include="defs.h" />
+    <ClInclude Include="FontManager.h" />
+    <ClInclude Include="GraphView.h" />
+    <ClInclude Include="GTFS.h" />
+    <ClInclude Include="HostLock.h" />
+    <ClInclude Include="HostThread.h" />
+    <ClInclude Include="HtmlView.h" />
+    <ClInclude Include="imovers.h" />
+    <ClInclude Include="Itinerary.h" />
+    <ClInclude Include="ItineraryDialog.h" />
+    <ClInclude Include="ItineraryView.h" />
+    <ClInclude Include="LateGraphView.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="Lock.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="mongoose.h" />
+    <ClInclude Include="MotivePower.h" />
+    <ClInclude Include="NotebookMgr.h" />
+    <ClInclude Include="Options.h" />
+    <ClInclude Include="OptionsDialog.h" />
+    <ClInclude Include="PlatformGraphView.h" />
+    <ClInclude Include="ReportBase.h" />
+    <ClInclude Include="ScenarioInfoDialog.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="SignalDialog.h" />
+    <ClInclude Include="SkinColorsDialog.h" />
+    <ClInclude Include="StationInfoDialog.h" />
+    <ClInclude Include="StringBuilder.h" />
+    <ClInclude Include="SwitchBoard.h" />
+    <ClInclude Include="SwitchboardNameDialog.h" />
+    <ClInclude Include="SwitchboardView.h" />
+    <ClInclude Include="TConfig.h" />
+    <ClInclude Include="TDFile.h" />
+    <ClInclude Include="tdscript.h" />
+    <ClInclude Include="TimeTable.h" />
+    <ClInclude Include="TimeTblView.h" />
+    <ClInclude Include="ToolsView.h" />
+    <ClInclude Include="Track.h" />
+    <ClInclude Include="TrackDialog.h" />
+    <ClInclude Include="TrackScriptDialog.h" />
+    <ClInclude Include="Train.h" />
+    <ClInclude Include="traindir3.h" />
+    <ClInclude Include="TrainInfoDialog.h" />
+    <ClInclude Include="TrainInfoList.h" />
+    <ClInclude Include="TriggerDialog.h" />
+    <ClInclude Include="trsim.h" />
+    <ClInclude Include="TSignal.h" />
+    <ClInclude Include="TVector.h" />
+    <ClInclude Include="ui.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+    <Image Include="TD.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

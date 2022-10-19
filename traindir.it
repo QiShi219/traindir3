@@ -1,0 +1,512 @@
+Arrival @@ Arrivo
+From @@ Da
+To @@ Per
+Train @@ Treno
+Speed @@ Velocita'
+Min.Del. @@ Rit.Ingr.
+Min.Late @@ Ritardo
+Status @@ Stato
+
+Entry @@ Entrata
+Exit @@ Uscita
+Entry/exit @@ Ingr./Uscita
+Times @@ Tempi
+
+Performance Statistics @@ Statistica Prestazioni
+Save @@ Salva
+
+Departing trains @@ Treni in partenza
+Train Schedule @@ Orario dei treni
+
+Close @@ Chiudi
+Stats @@ Statist.
+Print... @@ Stampa...
+Assign @@ Assegna
+Shunt @@ Manovra
+Cancel @@ Cancella
+Properties @@ Proprieta'
+Hide/Show titles @@ Mostra/Nascondi titoli
+
+Name @@ Nome
+Sections @@ Sezioni
+
+Track properties @@ Proprieta' del tratto di binario
+Track %d,%d @@ Binario %d,%d
+Length : @@ Lunghezza 
+Speed : @@ Velocita'
+Station : @@ Stazione
+Linked to west : @@ Collegato a ovest :
+Controls : @@ Controlla
+Linked to east : @@ Collegato a est :
+
+Trigger @@ Pedale
+Trigger properties @@ Proprieta' pedale
+Trigger at  %d,%d @@ Pedale a  %d,%d
+Action : @@ Azione :
+'@' in action = name of triggering train @@ '@' nell'azione = nome treno attivante
+Linked to track at coord: @@ Collegato al binario :
+Probabilities for action : @@ Probabilita' di azionamento :
+
+Signal properties @@ Proprieta' del segnale
+Signal at %d,%d @@ Segnale a %d,%d
+Signal Name : @@ Nome segnale
+Signal is always red @@ Segnale sempre rosso
+Signal has square frame @@ Segnale a vela quadra
+No penalty for train stopping at this signal @@ Nessuna penalita' per treni fermi a questo segnale
+Hidden @@ Invisibile
+Script file : @@ File script :
+
+Select Itinerary @@ Scelta Itinerario
+Select itinerary @@ Scelta itinerario
+Start Signal @@ Segnale di Inizio
+End Signal @@ Segnale di Fine
+Next Itinerary @@ Prossimo Itinerario
+&Select @@ &Scegli
+&Clear @@ &Annulla
+Cl&ose @@ &Chiudi
+
+Territory Information @@ Informazioni sul territorio
+Update @@ Aggiorna
+Print @@ Stampa
+
+Schedule @@ Orario
+Alerts @@ Eventi
+Train Info @@ Dettagli Treno
+
+Day Selection @@ Selezione Giorno
+Not all trains run every day of the week.\nWhich day do you want to simulate?@@ Non tutti i treni circolano ogni\ngiorno della settimana. Quale giorno vuoi simulare?
+Monday @@ Lunedi'
+Tuesday @@ Martedi'
+Wednesday @@ Mercoledi'
+Thursday @@ Giovedi'
+Friday @@ Venerdi'
+Saturday @@ Sabato
+Sunday @@ Domenica
+
+Write default preferences to ini file? @@ Scrivo le preferenze nel file ini?
+Preferences @@ Preferenze
+Full status info @@ Informazioni di stato complete
+Status line at top of window @@ Linea di stato in alto
+Alert sound on @@ Suono di avviso
+Beep on train entering scenario @@ Suono su ingresso treno
+View speed limits @@ Mostra limiti velocita'
+Automatically link signals @@ Collega segnali automaticamente
+Show grid @@ Mostra griglia
+View long blocks @@ Mostra blocchi lunghi
+Show seconds on clock @@ Mostra secondi sull'orologio
+Italian signals @@ Segnali italiani
+Hard performance tracking @@ Controllo stretto prestazioni
+Save preferences on exit @@ Salva preferenze in uscita
+
+Itinerary @@ Itinerari
+Name : @@ Nome :
+From signal '%s' @@ Dal segnale '%s'
+Next itinerary : @@ Prossimo itinerario
+
+Performance status @@ Sommario prestazione
+Wrong destinations : @@ Destinazioni sbagliate :
+Late trains : @@ Treni in ritardo :
+Thrown switches : @@ Scambi girati inutilmente :
+Cleared signals : @@ Segnali aperti inutilmente :
+Turned trains : @@ Inversioni di direzione inutili :
+Trains stopped at sig.: @@ Treni fermati a segnali :
+Wrong platforms : @@ Binari arrivi sbagliati :
+Commands denied : @@ Ordini sbagliati :
+Wrong stock assignments : @@ Assegnazioni materiali sbagliate :
+
+Created by @@ Creato da
+This is a game, and is not intended to\nbe used to actually control train traffic. @@ Questo e' un gioco e non e' progettato per\nessere usato per il controllo reale del traffico ferroviario.
+This is free software, released under the\nGNU General Public License. @@  Questo software e' gratis, distribuito sotto la\nGNU General Public License.
+This is free software, released under the\nGNU General Public License.\nThe author declines any responsibility for any damage\nthat might occur from the use of this program. @@  Questo software e' gratis, distribuito sotto la\nGNU General Public License.\nL'autore declina ogni responsabilita' per eventuali\ndanni causati dall'uso di questo programma.
+This is free software, released under the\nGNU General Public License Version 2.\nThe author declines any responsibility for any damage\nthat might occur from the use of this program. @@  Questo software e' gratis, distribuito sotto la\nGNU General Public License.\nL'autore declina ogni responsabilita' per eventuali\ndanni causati dall'uso di questo programma.
+
+Layout Errors @@ Errori nel tracciato
+These trains will be delayed on entry: @@ Questi treni saranno ritardati in ingresso:
+%s and %s both enter at %s on %s @@ Sia %s che %s entrano a %s alle %s
+These trains have unknown entry or exit points: @@ Questi treni non hanno un punto di ingresso o uscita conosciuto
+%s enters from '%s', exits at '%s' @@ '%s' entra da '%s', esce a '%s'
+
+Some train has unknown entry/exit point! @@ Qualche treno ha un punto di ingresso/uscita sconosciuto!
+at @@ a
+
+
+Start @@ Partenza
+Fast @@ Veloce
+Slow @@ Lento
+Sched. @@ Orario
+
+Simulation results @@ Risultati della simulazione
+Time @@ Tempo
+Total points @@ Punteggio totale
+Total min. of delayed entry @@ Minuti totali di ingressi ritardati
+Total min. trains arrived late @@ Minuti totali di treni arrivati in ritardo
+Total performance penalties @@ Penalita' totali
+Wrong destinatios @@ Destinazioni sbagliate
+Late trains @@ Treni in ritardo
+Wrong platforms @@ Binari di arrivo sbagliati
+Commands denied @@ Ordini sbagliati
+Trains waiting at signals @@ Treni fermati a segnali
+Thrown switches @@ Scambi girati inutilmente
+Cleared signals @@ Segnali aperti inutilmente
+Wrong stock assignments @@ Assegnazioni materiali sbagliate
+Reversed trains @@ Inversione di direzione inutili
+Save as text @@ Salva come file testo
+(hide canceled trains) @@ (nascondi treni non circolanti)
+(show canceled trains) @@ (mostra treni non circolanti)
+
+Enters @@ Ingresso
+At @@ Alle
+Exits @@ Uscita
+Before @@ per le
+Delay @@ Ingr.ritardato
+Late @@ Ritardo
+Status @@ Stato
+
+Station @@ Stazione
+Arrival @@ Arrivo
+Departure @@ Partenza
+Min.stop @@ Minuti di stop
+Plat. @@ Binario
+Runs on @@ Circola i
+Notes @@ Note
+To&nbsp;&nbsp; @@ Per&nbsp;&nbsp;
+To&nbsp;&nbsp;&nbsp; @@ Per&nbsp;&nbsp;&nbsp;
+Runs on&nbsp;&nbsp; @@ Circola i&nbsp;
+Runs&nbsp;on&nbsp;&nbsp; @@ Circola&nbsp;i&nbsp;
+Minimum stop (sec) @@ Attesa minima (sec)
+
+Territory @@ Territorio
+
+Are you sure you want to restore\nthe simulation to its saved state? @@ Ripartire dall'ora iniziale del salvataggio?
+This will delete the current layout.\nAre you sure you want to continue? @@ Quest'azione cancella il tracciato.\nSei sicuro di voler continuare?
+Replay interrupted. @@ Replay interrotto.
+
+
+/File/Open recent @@ /File/Apri recenti
+
+Train %s waiting at %d,%d! @@ Treno %s fermo a %d,%d!
+Train %s waiting at @@ Treno %s fermo a
+You must assign train %s using stock from train %s! @@ Devi assegnare il treno %s usando il materiale dal treno %s!
+Train %s derailed at %s! @@ Treno %s deragliato a %s!
+Train %s derailed at %d,%d! @@ Treno %s deragliato a %d,%d!
+Train %s derailed! @@ Treno %s deragliato
+Train %s delayed at %s! @@ Treno %s in ritardo a %s!
+Cannot reverse direction. Path is busy. @@ Impossibile invertire la direzione. Binario occupato.
+This signal cannot be turned to green! @@ Impossibile porre questo segnale a verde!
+You must wait for train to stop. @@ Devi attendere che il treno sia fermo.
+Reverse train direction? @@ Invertire la direzione del treno?
+Proceed to next station? @@ Avanzare il treno fino alla prossima stazione?
+
+Sorry, this feature is not available on this scenario. @@ Spiacente, ma questa funzione non e' disponibile in questo scenario.
+No station has distance information. @@ Nessuna stazione ha informazioni sulle progressive chilometriche.
+Train Schedule Graph @@ Grafico Orario
+
+Error reading @@ Errore nella lettura di
+Final stop @@ Ultima fermata
+at @@ alle
+Next stop @@ Prossima fermata
+ready @@ pronto
+Canceled - runs on @@ Soppresso - circola il
+Shunting @@ Manovra
+to @@ per
+Running. Dest. @@ In movimento. Dest.
+Stopped. ETD @@ Fermo. Parte alle
+Dest. @@ Dest.
+Delayed entry at @@ Ingresso ritardato a
+Waiting @@ In attesa
+derailed @@ deragliato
+Arrived at @@ Arrivato a
+instead of @@ invece che a
+Arrived @@ Arrivato con
+min. late at @@ min. di ritardo a
+Arrived on time @@ Arrivato in orario
+stock for @@ materiale per
+
+Signal at @@ Segnale a
+not linked to any track @@ non collegato ad alcun binario
+Track at @@ Binario a
+not controlled by signal at @@ non controllato dal segnale a
+linked to non-existant track at @@ collegato a binario inesistente a
+not linked back to @@ non ricollegato al binario a
+Switch at @@ Scambio a
+linked to non-existant switch at @@ collegato a scambio inesistente a
+not linked back to switch at @@ non ricollegato allo scambio a
+Checking for errors in layout...\n @@ Controllo errorin nel tracciato...\n
+nly like tracks can be linked. @@ Solo binari compatibili possono essere collegati.
+Only horizontal or vertical tracks can be linked automatically.\nTo link other track types, use the track properties dialog. @@ Solo binari orizzontali o verticali possono essere collegati automaticamente. Per collegare altri tipo di binario, usare il dialogo delle proprieta'.
+Signals can only be linked to a track. @@ Un segnale puo' solo essere collegato a un binario.
+Triggers can only be linked to a track. @@ Un pedale puo' solo essere collegato a un binario.
+Entry/Exit point can only be linked to a track. @@ Un punto di ingresso/uscita puo' solo essere collegato a un binario.
+
+speed @@ veloc.
+length @@ lungh.
+Station @@ Stazione
+entry/exit @@ ingresso/uscita
+Signal @@ Segnale
+controls @@ controlla
+
+Station of @@ Stazione di
+Platform @@ Binario
+An itinerary by the same name already exists.\nDo you want to replace the old itinerary with the new one? @@ Un itinerarion con lo stesso nome esiste gia'.\nLo vuoi rimpiazzare con quello nuovo?
+
+Cannot create log file. @@ Impossibile create il file di log.
+Cannot read log file. @@ Impossibile leggere il file di log.
+Do you want to restart the simulation? @@ Vuoi far ripartire la simulazione dall'inizio?
+Simulation restarted. @@ Simulazione ritornata alle condizioni iniziali.
+
+Stop @@ Stop
+Start @@ Parti
+Restart @@ Riparti
+Layout saved in file @@ Tracciato salvato nel file
+Game status saved in file @@ Stato del gioco salvato nel file
+No schedule for this territory! @@ Orario inesistente per questo tracciato!
+Question @@ Domanda
+Warning @@ Attenzione
+Attention @@ Errore
+Open File @@ Apri file
+Error @@ Errore
+Scenarios @@ Scenari
+Saved games @@ Partite salvate
+All files (*.*) @@ Tutti i files (*.*)
+Icons @@ Icone
+Save File @@ Salva File
+Can't create file @@ Impossibile creare il file
+
+/_File @@ /_File
+/File/_Open @@ /File/_Apri
+/File/Open re_cent @@ /File/Apri re_cente
+/File/_Save Game @@ /File/_Salva Gioco
+/File/_Restore @@ /File/_Recupera
+/File/Save _As @@ /File/Salva _Come
+/File/_Log @@ /File/Re_gistra
+/File/_Replay @@ /File/_Replay
+/File/About... @@ /File/Informazioni...
+/File/Quit @@ /File/Uscita
+/Edit/_Edit @@ /Edit/_Edit
+/Edit/_New Train @@ /Edit/_Nuovo Treno
+/Edit/Itinerary @@ /Edit/Itinerario
+/Edit/_Save Layout @@ /Edit/_Salva Tracciato
+/Edit/_Preferences @@ /Edit/_Preferenze
+/Edit/_New @@ /Edit/_Nuovo Tracciato
+/Edit/_Info @@ /Edit/_Informazioni
+/_Run @@ /_Simula
+/Run/_Start @@ /Simula/_Parti
+/Run/View _Graph @@ /Simula/Orario _Grafico
+/Run/Restart @@ /Simula/Riparti
+/Run/_Fast @@ /Simula/_Veloce
+/Run/S_low @@ /Simula/_Lento
+/Run/S_tation schedule @@ /Simula/Orario di _Stazione
+/Run/Set sig. to green @@ /Simula/Segnali autom. a verde
+/Run/Performance @@ /Simula/Prestazioni
+
+# about dialog
+
+This is a game, and is not intended to\nbe used to actually control train traffic. @@ Questo programma e' un gioco, e non e' stato\nprogettato per il controllo del traffico ferroviario reale.
+This is free software, released under the\nGNU General Public License 2. @@ Questo software e' gratis,\ndistribuito sotto la GNU General Public License 2.
+The author declines any responsibility for any damage\nthat might occur from the use of this program. @@ L'autore declina ogni responsabilita' per eventuali\ndanni causati dall'uso di questo programma.
+
+Assign rolling stock @@ Assegnazione materiale rotabile
+&Assign @@ &Assegna
+S&hunt @@ &Manovra
+Sp&lit @@ Spe&zza
+&Properties @@ &Proprieta'
+&Cancel @@ &Cancella
+
+Itinerary definition @@ Definizione itinerari
+&Name @@ Nome
+From signal @@ Dal segnale
+Ne&xt itinerary @@ &Prossimo itinerario
+
+Performance @@ Prestazione
+Count @@ Frequenza
+Points @@ Penalita'
+Total @@ Totale
+Wrong destinations @@ Destinazioni sbagliate
+Late trains @@ Treni arrivati in ritardo
+Wrong platforms @@ Binari sbagliati
+Commands denied @@ Ordini sbagliati
+Trains stopped at signals @@ Treni fermati a segnali
+Turned trains @@ Inversioni di direzione inutili
+Thrown switches @@ Scambi girati inutilmente
+Cleared signals @@ Segnali messi a verde inutilmente
+Wrong stock assignments @@ Assegnazioni materiale sbagliate
+
+
+Preferences @@ Preferenze
+Short train info @@ Informazioni treni ridotte
+Status line at top of window @@ Linea di stato in alto
+Alert sound on @@ Suono di avviso abilitato
+Alert on train entering layout @@ Avviso sonoro su ingresso treno nel tracciato
+View speed limits @@ Mostra i punti di cambio velocita'
+Automatically link signals @@ Collega automaticamente i segnali
+Show grid @@ Mosta griglia
+View long blocks @@ Mostra i binari lunghi
+Show seconds on clock @@ Mostra i secondi sull'orologio
+Traditional signals @@ Segnali tradizionali
+Strong performance checking @@ Controllo piu' restrittivo sugli errori
+Show linked objects in editor @@ Mostra i collegamenti degli oggetti nell'editor
+Show trains icons @@ Mostra le icone dei treni
+Show trains tooltip @@ Mostra il "tooltip" per i treni
+Check the desired options: @@ Selezionare le opzioni desiderate:
+
+Scenario Information @@ Informazioni Scenario
+
+Day selection @@ Selezione giorno
+&Continue @@ &Continua
+
+Signal at coordinates : @@ Segnale alle coordinate :
+Signal name : @@ Nome segnale
+Linked to east : @@ Linkato a est :
+Linked to west : @@ Linkato a ovest :
+Signal is always red @@ Segnale sempre al rosso
+Signal has square frame @@ Segnale a vela quadra
+No penalty for train stopping at this signal @@ Nessuna penalita' se un treno si ferma a questo segnale
+
+Station schedule @@ Orario di stazione
+S&tation schedule\tF5 @@ Orario di s&tazione\tF5
+&Schedule for station : @@ &Orario per la stazione di :
+&Ignore platform number @@ &Ignora il binario di arrivo
+&Close @@ &Chiudi
+&Print @@ &Stampa
+
+Layout Information @@ Informazioni sul tracciato
+
+Track Properties @@ Proprieta' del binario
+Track Length (m) : @@ Lungh. binario (m) :
+Station name : @@ Nome stazione :
+Speed(s) : @@ Velocita'
+
+Train Properties @@ Proprieta' del treno
+Train name @@ Nome treno
+Train type @@ Tipo treno
+Entry point @@ Punto di ingresso
+Entry time (hh:mm) @@ Orario di ingresso (hh:mm)
+Exit point @@ Punto di uscita
+Exit time (hh:mm) @@ Orario di uscita (hh:mm)
+Wait arrival of train @@ Attende l'arrivo del treno
+Stock for train @@ Materiale per treno
+Runs on @@ Circola il
+Train length : @@ Lunghezza treno :
+
+Trigger Properties @@ Proprieta' Pedale
+Trigger at coordinates : @@ Pedale alle coordinate :
+Action\n(e.g. "click 12,4") @@ Azione\n(es. "click 12,4")
+Linked to track at : @@ Collegato al binario a :
+Probabilities : @@ Probabilita'
+Action:             ('@' in action = name of triggering train) @@ Azione: ('@' nell'azione = nome del treno attivante)
+Linked to track at coord : @@ Collegato al binario alle coord. :
+Probabilities for action : @@ Probabilita' per l'azione :
+
+cannot load @@ Impossibile caricare
+Destination @@ Destinazione
+Assigning stock of train %s arrived at station %s @@ Assegnamento materiale treno %s arrivato a %s
+From signal '%s' @@ Dal segnale '%s'
+
+&File @@ &File
+&Open...\tCtrl-O @@ &Apri...\tCtrl-O
+&Save Game... @@ &Salva Gioco...
+&Restore... @@ &Riparti simulazione...
+Page set&up @@ Config&ura Pagina Stampa
+Pre&view @@ Bo&zza di Stampa
+&Print @@ Stam&pa
+&Edit @@ &Edit
+&Itinerary @@ &Itinerari
+&Save Layout @@ &Salva Tracciato
+&Preferences... @@ &Preferenze
+Exit\tAlt-F4 @@ Esci\tAlt-F4
+Ne&w @@ &Nuovo Tracciato
+In&fo @@ &Informazioni
+&Run @@ &Simula
+&Start\tCtrl-S @@ &Parti\tCtrl-S
+&Graph\tCtrl-G @@ Orario &Grafico\tCtrl-G
+&Late Graph\tCtrl-L @@ Grafico Ritardi\tCtrl-L
+&Restart... @@ &Riparti...
+&Fast\tCtrl-X @@ &Veloce\tCtrl-X
+&Slow\tCtrl-Z @@ &Lento\tCtrl-Z
+S&kip ahead\tCtrl-K @@ Avanza Orologio\tCtrl-K
+S&tation schedule\tF6 @@ Orario Stazioni\tF6
+Select Itinerary\tCtrl-I @@ Scelta Itinerari\tCtrl-I
+Set sig. to green @@ Segnali autom. a verde
+&Performance @@ Prestazioni
+
+&View @@ &Mostra
+Show layout\tF3 @@ Mostra tracciato\tF3
+Show schedule\tF4 @@ Mostra orario\tF4
+Show info page\tF5 @@ Mostra pagina informazioni\tF5
+Timetable in split window @@ Orario in riquadro
+Timetable in tabbed window @@ Orario in pannello
+Timetable in separate window @@ Orario in finestra separata
+Tool bar @@ Barra strumenti
+Status bar @@ Linea di stato
+Zoom in @@ Ingrandisci
+Zoom out @@ Rimpicciolisci
+Coord bars @@ Barre coordinate
+
+Welcome @@ Benvenuto
+Welcome\tF1 @@ Benvenuto\tF1
+&Help @@ &Aiuto
+
+Tools @@ Strumenti
+Graph @@ Grafico
+Layout @@ Tracciato
+
+You recently played the following simulations:<br><br> @@ Scenari simulati di recente:<br><br>
+Clear @@ Azzera
+
+Remove all alerts from this list? @@ Azzera la lista degli avvertimenti?
+Show Canceled @@ Mostra Cancellati
+Track First Train @@ Segui Primo Treno Attivo
+Track Last Train @@ Segui Ultimo Treno Attivo
+Show/hide canceled trains from list @@ Mostra/nasconde dalla lista i treni che non circolano
+Automatically show first active train in list @@ Mostra automaticamente nella lista il primo treno attivo
+Automatically show last active train in list @@ Mostra automaticamente nella lista l'ultimo treno attivo
+
+Stations &List @@ &Lista Stazioni
+Stations and Entry/Exit Points @@ Stazioni e Punti di Ingresso/Uscita
+Station Name @@ Nome Stazione
+Coordinates @@ Coordinate
+Entry/Exit @@ Ingresso/Uscita
+
+### spiegazioni delle voci di menu'
+
+Open a simulation file. @@ Apre uno scenario.
+Open a saved simulation file.@@ Apre uno scenario salvato precedentemente.
+Restore from the last saved state. @@ Ricarica l'ultimo scenario salvato.
+Changes the page layout settings. @@ Cambia le opzioni della pagina tracciato.
+Preview print output. @@ Visione bozza di stampa.
+Print all or part of the document. @@ Stampa tutto o parte del documento.
+Quit this program. @@ Esci dal programma.
+Enter/exit layout editor. @@ Entra/esce dall'editor del tracciato.
+Enter/exit itinerary editor. @@ Entra/esce dall'editor itinerari.
+Save changes to the layout. @@ Salva le modifiche al tracciato.
+Change program's preferences. @@ Modifica delle preferenze.
+Erase the layout. @@ Azzera il tracciato.
+Show information about the scenario. @@ Mostra informazioni relative allo scenario.
+Show list of stations and entry points. @@ Lista le stazioni e i punti di ingresso/uscita
+Start/stop the simulation. @@ Fa partire/ferma la simulazione.
+Show the timetable graph. @@ Mostra il grafico orario.
+Show accumulation of late minutes over time. @@ Mostra il grafico ritardi.
+Restart the simulation. @@ Fa ripartire la simulazione.
+Speed up the simulation. @@ Accelera la velocita' di simulazione.
+Slow down the simulation. @@ Rallenta la velocita' di simulazione.
+Skip to 3 minutes before next event. @@ Avanza la simulazione a 3 minuti prima del prossimo evento.
+Show the train schedule of each station. @@ Mostra l'orario per stazione.
+Set all automatic signals to green. @@ Poni tutti i segnali automatici a verde.
+Select an itinerary by name. @@ Sceglie un itinerario usandone il nome.
+Show performance data. @@ Mostra la tabella delle penalita'.
+Forcibly show the layout window. @@ Mostra la finestra del tracciato.
+Forcibly show the schedule window. @@ Mostra la finestra dell'orario.
+Shows the scenario info page, if available. @@ Mostra la pagina di informazioni dello scenario, se presente.
+View timetable in a split window. @@ Mostra l'orario in un riquadro.
+View timetable in a tab of the main window. @@ Mostra l'orario nella finestra principale.
+View timetable in a window separate from the main window. @@ Mostra l'orario in una finestra separata.
+Draw the layout at double the resolution. @@ Disegna il tracciato a grandezza raddoppiata.
+Draw the layour at normal resolution. @@ Disegna il tracciato a grandezza naturale.
+View/hide the coordinate bars. @@ Mostra/nasconde le barre delle coordinate.
+View/hide the tools bar. @@ Mostra/nasconde la barra strumenti.
+View/hide the status bar. @@ Mostra/nasconde la linea di stato.
+Show the welcome page. @@ Mostra la pagina di benvenuto.
+Show the copyright notice. @@ Mostra la pagina di copyright.
+Select the language to be used next time Traindir is started. @@ Sceglie il linguaggio da usare la prossima volta che Traindir e' eseguito.
+
+

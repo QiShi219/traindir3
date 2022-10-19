@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="traindir3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release Win32">
+				<Option output="../binrel/traindir3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D__WXMSW__" />
+					<Add option="-D__WXDEBUG__" />
+					<Add option="-DWXUSINGDLL" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-DNOPCH" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-D_CRT_NONSTDC_NO_DEPRECATE" />
+					<Add option="-W" />
+					<Add option="-O1" />
+					<Add directory="../../wxwidgets-2.8.11/lib/vc_lib/msw" />
+					<Add directory="../../wxwidgets-2.8.11/include" />
+					<Add directory="." />
+					<Add directory="../../wxwidgets-2.8.11/samples" />
+					<Add directory="../../wxWidgets-2.8.11/contrib/include" />
+					<Add directory="../../wxWidgets-2.8.11/lib/vc_dll/msw" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../../wxwidgets-2.8.11/lib/vc_lib/msw" />
+					<Add directory="../../wxwidgets-2.8.11/include" />
+					<Add directory="." />
+					<Add directory="../../wxwidgets-2.8.11/samples" />
+					<Add directory="../../wxWidgets-2.8.11/contrib/include" />
+					<Add directory="../../wxWidgets-2.8.11/lib/vc_dll/msw" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="wxmsw28_html" />
+					<Add library="wxmsw28_adv" />
+					<Add library="wxmsw28_core" />
+					<Add library="wxbase28_xml" />
+					<Add library="wxbase28_net" />
+					<Add library="wxbase28" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="ws2_32" />
+					<Add directory="../../wxWidgets-2.8.11/lib/vc_dll" />
+				</Linker>
+			</Target>
+			<Target title="Debug Win32">
+				<Option output="../bin/traindir3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../Debug" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D__WXMSW__" />
+					<Add option="-D__WXDEBUG__" />
+					<Add option="-DWXUSINGDLL" />
+					<Add option="-DNOPCH" />
+					<Add option="-D_CRT_SECURE_NO_WARNINGS" />
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE" />
+					<Add option="-D_CRT_NONSTDC_NO_DEPRECATE" />
+					<Add option="-W" />
+					<Add option="-O0" />
+					<Add directory="../../wxwidgets-2.8.11/lib/vc_lib/mswd" />
+					<Add directory="../../wxwidgets-2.8.11/include" />
+					<Add directory="." />
+					<Add directory="../../wxwidgets-2.8.11/samples" />
+					<Add directory="../utils" />
+					<Add directory="../../wxWidgets-2.8.11/contrib/include" />
+					<Add directory="../../wxWidgets-2.8.11/lib/vc_dll/mswd" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="../../wxwidgets-2.8.11/lib/vc_lib/mswd" />
+					<Add directory="../../wxwidgets-2.8.11/include" />
+					<Add directory="." />
+					<Add directory="../../wxwidgets-2.8.11/samples" />
+					<Add directory="../utils" />
+					<Add directory="../../wxWidgets-2.8.11/contrib/include" />
+					<Add directory="../../wxWidgets-2.8.11/lib/vc_dll/mswd" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="wxmsw28d_html" />
+					<Add library="wxmsw28d_adv" />
+					<Add library="wxmsw28d_core" />
+					<Add library="wxbase28d_xml" />
+					<Add library="wxbase28d_net" />
+					<Add library="wxbase28d" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="ws2_32" />
+					<Add directory="../../wxWidgets-2.8.11/lib/vc_dll" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="AlertList.cpp" />
+		<Unit filename="AlertList.h" />
+		<Unit filename="Alerts.cpp" />
+		<Unit filename="Alerts.h" />
+		<Unit filename="AppMainLoop.cpp" />
+		<Unit filename="Array.h" />
+		<Unit filename="AssignDialog.cpp" />
+		<Unit filename="AssignDialog.h" />
+		<Unit filename="CSV.cpp" />
+		<Unit filename="CSV.h" />
+		<Unit filename="Canvas.cpp" />
+		<Unit filename="Canvas.h" />
+		<Unit filename="Client.cpp" />
+		<Unit filename="Client.h" />
+		<Unit filename="ClientConnection.cpp" />
+		<Unit filename="ClientConnection.h" />
+		<Unit filename="ConfigDialog.cpp" />
+		<Unit filename="ConfigDialog.h" />
+		<Unit filename="DaysDialog.cpp" />
+		<Unit filename="DaysDialog.h" />
+		<Unit filename="FontManager.cpp" />
+		<Unit filename="FontManager.h" />
+		<Unit filename="GTFS.cpp" />
+		<Unit filename="GTFS.h" />
+		<Unit filename="GraphView.cpp" />
+		<Unit filename="GraphView.h" />
+		<Unit filename="HostLock.cpp" />
+		<Unit filename="HostLock.h" />
+		<Unit filename="HostThread.cpp" />
+		<Unit filename="HostThread.h" />
+		<Unit filename="HtmlView.cpp" />
+		<Unit filename="HtmlView.h" />
+		<Unit filename="Itinerary.cpp" />
+		<Unit filename="Itinerary.h" />
+		<Unit filename="ItineraryDialog.cpp" />
+		<Unit filename="ItineraryDialog.h" />
+		<Unit filename="ItineraryView.cpp" />
+		<Unit filename="ItineraryView.h" />
+		<Unit filename="LateGraphView.cpp" />
+		<Unit filename="LateGraphView.h" />
+		<Unit filename="LinkedList.h" />
+		<Unit filename="Localize.cpp" />
+		<Unit filename="Lock.cpp" />
+		<Unit filename="Lock.h" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="MainFrm.cpp" />
+		<Unit filename="MainFrm.h" />
+		<Unit filename="MotivePower.cpp" />
+		<Unit filename="MotivePower.h" />
+		<Unit filename="NotebookMgr.cpp" />
+		<Unit filename="NotebookMgr.h" />
+		<Unit filename="Options.cpp" />
+		<Unit filename="Options.h" />
+		<Unit filename="OptionsDialog.cpp" />
+		<Unit filename="OptionsDialog.h" />
+		<Unit filename="PlatformGraph.cpp" />
+		<Unit filename="PlatformGraphView.h" />
+		<Unit filename="Puzzles.cpp" />
+		<Unit filename="ReportBase.cpp" />
+		<Unit filename="ReportBase.h" />
+		<Unit filename="ScenarioInfoDialog.cpp" />
+		<Unit filename="ScenarioInfoDialog.h" />
+		<Unit filename="Server.cpp" />
+		<Unit filename="Server.h" />
+		<Unit filename="Shape.cpp" />
+		<Unit filename="Shape.h" />
+		<Unit filename="SignalDialog.cpp" />
+		<Unit filename="SignalDialog.h" />
+		<Unit filename="SkinColorsDialog.cpp" />
+		<Unit filename="SkinColorsDialog.h" />
+		<Unit filename="StationInfoDialog.cpp" />
+		<Unit filename="StationInfoDialog.h" />
+		<Unit filename="StringBuilder.cpp" />
+		<Unit filename="StringBuilder.h" />
+		<Unit filename="SwitchBoard.cpp" />
+		<Unit filename="SwitchBoard.h" />
+		<Unit filename="SwitchboardNameDialog.cpp" />
+		<Unit filename="SwitchboardNameDialog.h" />
+		<Unit filename="SwitchboardView.cpp" />
+		<Unit filename="SwitchboardView.h" />
+		<Unit filename="TConfig.cpp" />
+		<Unit filename="TConfig.h" />
+		<Unit filename="TD.ico" />
+		<Unit filename="TDFile.cpp" />
+		<Unit filename="TDFile.h" />
+		<Unit filename="TSignal.cpp" />
+		<Unit filename="TSignal.h" />
+		<Unit filename="TVector.cpp" />
+		<Unit filename="TVector.h" />
+		<Unit filename="TimeTable.cpp" />
+		<Unit filename="TimeTable.h" />
+		<Unit filename="TimeTblView.cpp" />
+		<Unit filename="TimeTblView.h" />
+		<Unit filename="ToolsView.cpp" />
+		<Unit filename="ToolsView.h" />
+		<Unit filename="Track.h" />
+		<Unit filename="TrackDialog.cpp" />
+		<Unit filename="TrackDialog.h" />
+		<Unit filename="TrackScriptDialog.cpp" />
+		<Unit filename="TrackScriptDialog.h" />
+		<Unit filename="Train.cpp" />
+		<Unit filename="Train.h" />
+		<Unit filename="TrainInfoDialog.cpp" />
+		<Unit filename="TrainInfoDialog.h" />
+		<Unit filename="TrainInfoList.cpp" />
+		<Unit filename="TrainInfoList.h" />
+		<Unit filename="TriggerDialog.cpp" />
+		<Unit filename="TriggerDialog.h" />
+		<Unit filename="WSGenTT.cpp" />
+		<Unit filename="WebServices.cpp" />
+		<Unit filename="ai.cpp" />
+		<Unit filename="color.h" />
+		<Unit filename="defs.h" />
+		<Unit filename="espanol.cpp" />
+		<Unit filename="html.cpp" />
+		<Unit filename="http.cpp" />
+		<Unit filename="icon1.ico" />
+		<Unit filename="imovers.h" />
+		<Unit filename="italiano.cpp" />
+		<Unit filename="loadsave.cpp" />
+		<Unit filename="mongoose.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mongoose.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="run.cpp" />
+		<Unit filename="tdscript.cpp" />
+		<Unit filename="tdscript.h" />
+		<Unit filename="track.cpp" />
+		<Unit filename="traindir3.h" />
+		<Unit filename="trsim.cpp" />
+		<Unit filename="trsim.h" />
+		<Unit filename="ui.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

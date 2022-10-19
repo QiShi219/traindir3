@@ -1,0 +1,392 @@
+#created by Claude Marani
+Arrival @@ Arrive
+From @@ De
+To @@ Vers
+Train @@ Train
+Speed @@ Vitesse
+Min.Del. @@ Retard
+Min.Late @@ Ret.Min.
+Status @@ Status
+
+Entry/exit @@ Entree/Sortie
+Times @@ Temps
+
+Performance Statistics @@ Statistiques Performances
+Save @@ Sauver
+
+Departing trains @@ Trains au depart
+Train Schedule @@ Horaire des trains
+
+Close @@ Fermer
+Stats @@ Stats
+Print... @@ Imprimer...
+Assign @@ Assigner
+Shunt @@ Manoeuvre
+Cancel @@ Annuler
+Properties @@ Proprietes
+Hide/Show titles @@ Afficher/Masquer titre
+
+Name @@ Nom
+Sections @@ Sections
+
+Track properties @@ Proprietes du trace des voies
+Track %d,%d @@ Voie %d,%d
+Length : @@ Longueur 
+Speed : @@ Vitesse
+Station : @@ Gare
+Linked to west : @@ Lie a l'ouest :
+Controls : @@ Controle
+Linked to east : @@ Lie a l'est :
+
+Trigger properties @@ Proprietes pedale de voie
+Trigger at  %d,%d @@ Pedale a  %d,%d
+Action : @@ Action :
+'@' in action = name of triggering train @@ '@' dans 'action' = nom train actionneur
+Linked to track at coord: @@  Lie a la voie :
+Probabilities for action : @@ Probabilite d'actionnement:
+
+Signal properties @@ Proprietes du signal
+Signal at %d,%d @@ Signal a %d,%d 
+Signal Name : @@ Nom signal :
+Signal is always red @@ Signal toujour rouge
+Signal has square frame @@ Signal de manoeuvre
+No penalty for train stopping at this signal @@ Aucune penalite pour train s'arrêtant a ce signal
+
+Territory Information @@ Information sur terrain
+Update @@ Mise a jour
+Print @@ Imprimer
+
+Day Selection @@ Selection du jour
+Not all trains run every day of the week.\nWhich day do you want to simulate?@@ Certain trains ne circule pas tous les jours. Quel jour voulez vous simuler?
+Monday @@ Lundi
+Tuesday @@ Mardi
+Wednesday @@ Mercredi
+Thursday @@ Jeudi
+Friday @@ Vendredi
+Saturday @@ Samedi
+Sunday @@ Dimanche
+
+Write default preferences to ini file? @@ Enregistrer vos preference dans le fichier ini?
+Preferences @@ Preferences
+Full status info @@ Information d'etats completes
+Status line at top of window @@ Barre d'etat en haut
+Alert sound on @@ Avertissement sonore active
+Beep on train entering scenario @@ Avertissement sonore a l'entree d'un train
+View speed limits @@ Afficher les limites vitesses
+Automatically link signals @@ Lien automatique des signaux
+Show grid @@ Afficher la grille
+View long blocks @@ Afficher block long
+Show seconds on clock @@ Afficher les secondes dans l'horloge
+Italian signals @@ Signaux italiens
+Hard performance tracking @@ Controle severe des performances
+Save preferences on exit @@ Sauvegarde automatique des preferences
+
+Itinerary @@ Itineraire
+Name : @@ Nom :
+From signal '%s' @@ Du signal '%s'
+Next itinerary : @@ Prochain itineraire
+
+Performance status @@ Statistiques performances
+Wrong destinations : @@ Destinations erronees :
+Late trains : @@ Trains en retard :
+Thrown switches : @@ Auguillage manipule inutilement :
+Cleared signals : @@ Signaux ouvert inutilement :
+Turned trains : @@ Changement de sens de marche inutile :
+Trains stopped at sig.: @@ Trains arrêtes aux signaux :
+Wrong platforms : @@ Arrivees sur mauvaise voie :
+Commands denied : @@ Ordres errones :
+Wrong stock assignments : @@ Affectation materiels errones :
+
+Created by @@ Cree par
+This is a game, and is not intended to\nbe used to actually control train traffic. @@ Ceci est un jeu et n'est pas destine\n a controler le trafic ferroviaire reel
+This is free software, released under the\nGNU General Public License. @@  Ce logiciel est gratuit.\nIl est distribue sous license GPL :\nla GNU General Public License.
+This is free software, released under the\nGNU General Public License.\nThe author declines any responsibility for any damage\nthat might occur from the use of this program. @@  Ce logiciel est gratuit,Il est distribue sous license GNU :\nla General Public License.
+\n Les auteurs declinent toutes responsabilites\n concernant les dommages qui pourrait être ocasionne\n par l'utilisation de ce logiciel. 
+
+Layout Errors @@ Erreur dans le trace
+These trains will be delayed on entry: @@ Ces trains seront retardes a l'entree :
+%s and %s both enter at %s on %s @@ les trains %s et %s entrent simultanement en %s a %s
+These trains have unknown entry or exit points: @@ Ces trains n'ont pas de point d'entree ou de sortie connu
+%s enters from '%s', exits at '%s' @@ '%s' entre en '%s', sort en '%s'
+
+Some train has unknown entry/exit point! @@ Certains trains ont un point d'entree/sortie inconnu!
+at @@ a
+
+
+Start @@ Depart
+Fast @@ Accel.
+Slow @@ Ralent.
+Sched. @@ Horaire
+
+Simulation results @@ Resultats de la simulation
+Time @@ Temps
+Total points @@ Points totaux
+Total min. of delayed entry @@ Cumul minutes de retard trains a l'entree
+Total min. trains arrived late @@ Cumul minutes de retard trains a l'arrivee
+Total performance penalties @@ Total penalites
+Wrong destinatios @@ Destinations erronees
+Late trains @@ Train en retard
+Wrong platforms @@ Voies d'arrivee erronees
+Commands denied @@ Ordres erronees
+Trains waiting at signals @@ Trains arrête a un signal
+Thrown switches @@ Aiguillages manipules inutilement
+Cleared signals @@ Signaux ouverts inutilement
+Wrong stock assignments @@ Affectations materiels errones
+Reversed trains @@ Changement de sens de marche inutiles
+
+Enters @@ Entree
+At @@ A
+Exits @@ Sortie
+Before @@ Avant
+Delay @@ Entree retard.
+Late @@ Retard
+Status @@ Status
+
+Station @@ Gare
+Arrival @@ Arrivee
+Departure @@ Depart
+Min.stop @@ Temps de stationnement
+Plat. @@ Voie
+Runs on @@ Circule les
+Notes @@ Notes
+s
+To&nbsp;&nbsp; @@ Vers&nbsp;&nbsp;
+Runs on&nbsp;&nbsp; @@ Circule les&nbsp;
+Minimum stop (sec) @@ Attente mini (sec)
+
+Territory @@ Territoire
+
+Are you sure you want to restore\nthe simulation to its saved state? @@ Restorer la partie sauvegarde?
+This will delete the current layout.\nAre you sure you want to continue?
+ @@ Le trace courant sera efface. Continuer?
+Reply interrupted. @@ Annulation rejouer.
+
+
+/File/Open recent @@ /Fichier/Ouvrir recents
+
+Train %s waiting at %d,%d! @@ Train %s attend a %d,%d!
+Train %s waiting at @@ Train %s attend a
+You must assign train %s using stock from train %s! @@ Vous devez affecter au train %s le materiel utilise par le train %s!
+Train %s derailed at %s! @@ Train %s deraille a %s!
+Train %s derailed at %d,%d! @@ Train %s deraille a %d,%d!
+Train %s derailed! @@ Train %s deraille
+Train %s delayed at %s! @@ Train %s en retard a %s!
+Cannot reverse direction. Path is busy. @@ Changement de direction impossible. Voie occupee.
+This signal cannot be turned to green! @@ Ce signal ne peut passer au vert
+You must wait for train to stop. @@ Vous devez attendre l'arrêt du train
+Reverse train direction? @@ Changer le sens de marche du train?
+Proceed to next station? @@ Faire avancer le train jusqu'a la prochaine gare?
+
+Sorry, this feature is not available on this scenario. @@ Desole, cette fonction n'est pas disponible dans ce scenario
+No station has distance information. @@ Aucune station n'a d'information de distance kilometrique.
+Train Schedule Graph @@ Graphique horaire
+
+Error reading @@ Erreur de lecture
+Final stop @@ Terminus
+at @@ a
+Next stop @@ Prochain arrêt
+ready @@ prêt
+Canceled - runs on @@ Annule - circule le
+Shunting @@ Manoeuvre
+to @@ vers
+Running. Dest. @@ En mouvement. Dest.
+Stopped. ETD @@ A l'arrêt. Depart a
+Dest. @@ Dest.
+Delayed entry at @@ Entree retardee a
+Waiting @@ En attente
+derailed @@ deraille
+Arrived at @@ Arrive a
+instead of @@ au lieu de
+Arrived @@ Arrive avec
+min. late at @@ mn de retard a
+Arrived on time @@ Arrive a l'heure
+stock for @@ materiel pour
+
+Signal at @@ Signal a
+not linked to any track @@ n'est lie a aucune voie
+Track at @@ Voie a
+not controlled by signal at @@ n'est pas controle par le signal a
+linked to non-existant track at @@ controle une voie inexistante
+not linked back to @@ non relie a
+Switch at @@ Aiguillage a
+linked to non-existant switch at @@ lie a un aiguillage inexistant a
+not linked back to switch at @@ non relie a l'aiguillage a
+Checking for errors in layout...\n @@ Recherche des erreurs dans le trace...\n
+nly like tracks can be linked. @@ Seul les voie compatible entre elles peuvent être liees.
+Only horizontal or vertical tracks can be linked automatically.\nTo link other track types, use the track properties dialog. @@ Seul les voies horizontale et verticale peuvent être lie automatiquement. Pour lier d'autres types de voies, utiliser le dialogue "Proprietes"'.
+Signals can only be linked to a track. @@ Un signal peut uniquement être lie a une voie.
+Triggers can only be linked to a track. @@ Une pedale peut uniquement être lie a une voie.
+Entry/Exit point can only be linked to a track. @@ Un point d'entree/sortie peut uniquement être lie a une voie.
+
+speed @@ vitesse
+length @@ longueur
+Station @@ Gare
+entry/exit @@ Entree/sortie
+Signal @@ Signal
+controls @@ controles
+
+Station of @@ Gare de
+Platform @@ Voie
+An itinerary by the same name already exists.\nDo you want to replace the old itinerary with the new one? @@ Un itineraire portant le même nom existe deja\nVoulez vous le remplacer par le nouveau?
+
+Cannot create log file. @@ Impossible cree fichier log
+Cannot read log file. @@ Impossible lire fichier log.
+Do you want to restart the simulation? @@ Reprendre la simulation au debut?
+Simulation restarted. @@ Simulation redemarre.
+
+Stop @@ Stop
+Start @@ Lancer
+Restart @@ Relancer
+Layout saved in file @@ Trace enregistre dans
+Game status saved in file @@ Etat du jeu sauvegarde dans 
+No schedule for this territory! @@ Pas d'horaires pour ce trace!
+Question @@ Question
+Warning @@ Attention
+Attention @@ Erreur
+Open File @@ Ouvrir fichier
+Error @@ Erreur
+Scenarios @@ Scenarios
+Saved games @@ Parties sauvegardees
+All files (*.*) @@ Tous les fichiers (*.*)
+Icons @@ Icône
+Save File @@ Sauvegarder Fichier
+Can't create file @@ Creation fichier impossible
+
+/_File @@ /_Fichier
+/File/_Open @@ /Fichier/_Ouvrir
+/File/Open re_cent @@ /Fichier/Ouvrir re_cents
+/File/_Save Game @@ /Fichier/_Sauvegarder Partie
+/File/_Restore @@ /Fichier/_Restaurer Partie
+/File/Save _As @@ /Fichier/Sauvegarder sous
+/File/sep0 @@ /Fichier/sep0
+/File/_Log @@ /Fichier/Sauv_egarder
+/File/_Replay @@ /Fichier/_Rejouer
+/File/About... @@ /Fichier/A propos...
+/File/sep1 @@ /Fichier/sep1
+/File/Quit @@ /Fichier/_Quitter
+/_Edit @@ /_Edition
+/Edit/_Edit @@ /Edition/_Editer
+/Edit/_New Train @@ /Edition/_Nouveau Train
+/Edit/Itinerary @@ /Edition/Itineraire
+/Edit/_Save Layout @@ /Edition/_Sauvegarder Trace
+/Edit/_Preferences @@ /Edition/_Preferences
+/Edit/_New @@ /Edition/_Nouveau Trace
+/Edit/_Info @@ /Edition/_Informations
+/_Run @@ /_Simulation
+/Run/_Start @@ /Simulation/_Depart
+/Run/View _Graph @@ /Simulation/Graphique horaire
+/Run/Restart @@ /Simulation/Redemarrer
+/Run/_Fast @@ /Simulation/_Plus Rapide
+/Run/S_low @@ /Simulation/Plus _Lent
+/Run/S_tation schedule @@ /Simulation/Horaires des gares
+/Run/Set sig. to green @@ /Simulation/Ouvrir tous les signaux
+/Run/Performance @@ /Simulation/Performances
+
+# about dialog
+
+This is a game, and is not intended to\nbe used to actually control train traffic. @@ Ce logiciel est un jeu.\nIl n'a pas ete cree pour controler un traffic reel.
+This is free software, released under the\nGNU General Public License. @@ Ce logiciel est gratuit,\ndistribue sous licence GPL: la GNU General Public License.
+The author declines any responsibility for any damage\nthat might occur from the use of this program. @@ Les auteurs declinnent toutes responsabilites\npour tous dommages occasione par l'utilisation de ce logiciel
+Assign rolling stock @@ Affectation materiel roulant
+&Assign @@ &Affecter
+S&hunt @@ &Manoeuvre
+Sp&lit @@ Frac&tinner
+&Properties @@ &Proprietes
+&Cancel @@ &Annuler
+
+Itinerary definition @@ Definition itineraire
+&Name @@ Nom
+From signal @@ Du signal
+Ne&xt itinerary @@ &Prochain itineraire
+
+Performance @@ Performances
+Count @@ Frequences
+Points @@ Penalites
+Total @@ Total
+Wrong destinations @@ Destinations erronees
+Late trains @@ Train arrives en retard
+Wrong platforms @@ Mauvaises voies
+Commands denied @@ Ordres errones
+Trains stopped at signals @@ Train arrête aux signaux
+Turned trains @@ Inversion de la marche inutile
+Thrown switches @@ Aiguilles manipulees inutilement
+Cleared signals @@ Sigaux mis aux vert inutilement
+Wrong stock assignments @@ Affectations materiels erronees
+
+
+Preferences @@ Preferences
+Short train info @@ Information simplifiee sur les trains
+Status line at top of window @@ Barre d'etat en haut
+Alert sound on @@ Activer signal sonore
+Alert on train entering layout @@ Signal sonore pour un train entrant dans le trace
+View speed limits @@ Afficher les limites de vitesses
+Automatically link signals @@ Lier automatiquement les signaux
+Show grid @@ Afficher la grille
+View long blocks @@ Afficher les voies longues
+Show seconds on clock @@ Afficher les secondes dans l'horloge
+Traditional signals @@ Signaux traditionels
+Strong performance checking @@ Controle plus severe des erreurs
+Show linked objects in editor @@ Afficher les liens entre les objets dans l'editeur
+
+Day selection @@ Selection du jour
+&Continue @@ &Continer
+
+Signal at coordinates : @@ Signal aux coordonees :
+Signal name : @@ Nom signal
+Linked to east : @@ Lie a l'est :
+Linked to west : @@ Lie a l'ouest :
+Signal is always red @@ Signal toujours rouge
+Signal has square frame @@ Signal de manoeuvre
+No penalty for train stopping at this signal @@ Aucune penalite pour les trains s'arrêtant a ce signal
+
+Station schedule @@ Horaire de la gare
+&Schedule for station : @@ &Haoraire pour la gare de :
+&Ignore platform number @@ &Ignorer le numero de la voie
+&Close @@ &Fermer
+&Print @@ &Imprimer
+
+Layout Information @@ Information sur le trace
+
+Track Properties @@ Propriete de la voie
+Track Length (m) : @@ Longu. voie (m) :
+Station name : @@ Nom de la Gare :
+Speed(s) : @@ Vitesse
+
+Train Properties @@ Proprietes du train
+Train name @@ Nom du train
+Train type @@ Type de train
+Entry point @@ Point d'entree
+Entry time (hh:mm) @@ Heure d'entree (hh:mm)
+Exit point @@ Point d'arrive
+Exit time (hh:mm) @@ Heure d'arrivee (hh:mm)
+Wait arrival of train @@ Attente de l'arrivee du train
+Stock for train @@ Materiel pour train
+Runs on @@ Circule le
+Train length : @@ Longueur du tain :
+
+Trigger Properties @@ Proprietes pedale
+Trigger at coordinates : @@ Pedale aux coord. :
+Action\n(e.g. "click 12,4") @@ Action\n(ex. "click 12,4")
+Linked to track at : @@ Lie a la voie a : :
+Probabilities : @@ Probabilites
+Action:             ('@' in action = name of triggering train) @@ Action : (@ dans l'action = nom du train actionneur)
+Linked to track at coord : @@ Lie a la voie aux coord. :
+Probabilities for action : @@ Probabilite pour l'action
+
+cannot load @@ Chargement impossible
+
+/File/Open recent/1 - @@ /Fichier/Ouvrir recents/1 -
+/File/Open recent/2 -- @@ /Fichier/Ouvrir recents/2 --
+/File/Open recent/3 --- @@ /Fichier/Ouvrir recents/3 ---
+
+Cancel @@ Annuler
+Print @@ Imprimer
+Close @@ Fermer
+Delete @@ Effacer
+Reply @@ Repondre
+Continue @@ Continuer
+No stations in this layout! @@ Pas de gares dans ce trace
+Information @@ Information
+Yes @@ Oui
+No @@ Non
+File selection @@ Selection fichier

@@ -1,0 +1,145 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: traindir3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Mephisto\AppData\Local\Temp\RSP592A.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "\cg\projects\wxwidgets-2.6.3\lib\vc_lib\mswd" /I "\cg\projects\wxwidgets-2.6.3\include" /I "." /I "\cg\projects\wxwidgets-2.6.3\samples" /I "..\utils" /I "..\wxWidgets-2.6.3\contrib\include" /I "..\wxWidgets-2.6.3\include" /I "..\wxWidgets-2.6.3\lib\vc_dll\mswd" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "__WXMSW__" /D "__WXDEBUG__" /D "WXUSINGDLL" /D "NOPCH" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\CG\projects\traindir3\Canvas.cpp"
+"C:\CG\projects\traindir3\trsim.cpp"
+]
+Creating command line "cl.exe @C:\Users\Mephisto\AppData\Local\Temp\RSP592A.tmp" 
+Creating temporary file "C:\Users\Mephisto\AppData\Local\Temp\RSP592B.tmp" with contents
+[
+wxmsw26d_html.lib wxmsw26d_adv.lib wxmsw26d_core.lib wxbase26d_xml.lib wxbase26d_net.lib wxmsw26d_core.lib wxbase26d.lib wxbase26d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ws2_32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/traindir3.pdb" /debug /machine:I386 /out:"bin/traindir3.exe" /pdbtype:sept /libpath:"..\wxWidgets-2.6.3\lib\vc_dll" 
+.\Debug\AlertList.obj
+.\Debug\AssignDialog.obj
+.\Debug\Canvas.obj
+.\Debug\Client.obj
+.\Debug\ConfigDialog.obj
+.\Debug\DaysDialog.obj
+.\Debug\espanol.obj
+.\Debug\FontManager.obj
+.\Debug\GraphView.obj
+.\Debug\html.obj
+.\Debug\HtmlView.obj
+.\Debug\http.obj
+.\Debug\italiano.obj
+.\Debug\Itinerary.obj
+.\Debug\ItineraryDialog.obj
+.\Debug\ItineraryView.obj
+.\Debug\LateGraphView.obj
+.\Debug\loadsave.obj
+.\Debug\Localize.obj
+.\Debug\Main.obj
+.\Debug\MainFrm.obj
+.\Debug\mongoose.obj
+.\Debug\NotebookMgr.obj
+.\Debug\OptionsDialog.obj
+.\Debug\PlatformGraph.obj
+.\Debug\Puzzles.obj
+.\Debug\ReportBase.obj
+.\Debug\run.obj
+.\Debug\ScenarioInfoDialog.obj
+.\Debug\Server.obj
+.\Debug\SignalDialog.obj
+.\Debug\SkinColorsDialog.obj
+.\Debug\StationInfoDialog.obj
+.\Debug\SwitchBoard.obj
+.\Debug\SwitchboardNameDialog.obj
+.\Debug\SwitchboardView.obj
+.\Debug\TConfig.obj
+.\Debug\TDFile.obj
+.\Debug\tdscript.obj
+.\Debug\TimeTblView.obj
+.\Debug\ToolsView.obj
+.\Debug\track.obj
+.\Debug\TrackDialog.obj
+.\Debug\TrackScriptDialog.obj
+.\Debug\Train.obj
+.\Debug\TrainInfoDialog.obj
+.\Debug\TrainInfoList.obj
+.\Debug\TriggerDialog.obj
+.\Debug\trsim.obj
+.\Debug\TSignal.obj
+.\Debug\TVector.obj
+.\Debug\resource.res
+]
+Creating command line "link.exe @C:\Users\Mephisto\AppData\Local\Temp\RSP592B.tmp"
+<h3>Output Window</h3>
+Compiling...
+Canvas.cpp
+c:\cg\projects\traindir3\canvas.cpp(89) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+trsim.cpp
+c:\cg\projects\traindir3\trsim.cpp(2070) : warning C4018: '==' : signed/unsigned mismatch
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\Mephisto\AppData\Local\Temp\RSPEFEE.tmp" with contents
+[
+/nologo /o"Debug/traindir3.bsc" 
+.\Debug\AlertList.sbr
+.\Debug\AssignDialog.sbr
+.\Debug\Canvas.sbr
+.\Debug\Client.sbr
+.\Debug\ConfigDialog.sbr
+.\Debug\DaysDialog.sbr
+.\Debug\espanol.sbr
+.\Debug\FontManager.sbr
+.\Debug\GraphView.sbr
+.\Debug\html.sbr
+.\Debug\HtmlView.sbr
+.\Debug\http.sbr
+.\Debug\italiano.sbr
+.\Debug\Itinerary.sbr
+.\Debug\ItineraryDialog.sbr
+.\Debug\ItineraryView.sbr
+.\Debug\LateGraphView.sbr
+.\Debug\loadsave.sbr
+.\Debug\Localize.sbr
+.\Debug\Main.sbr
+.\Debug\MainFrm.sbr
+.\Debug\mongoose.sbr
+.\Debug\NotebookMgr.sbr
+.\Debug\OptionsDialog.sbr
+.\Debug\PlatformGraph.sbr
+.\Debug\Puzzles.sbr
+.\Debug\ReportBase.sbr
+.\Debug\run.sbr
+.\Debug\ScenarioInfoDialog.sbr
+.\Debug\Server.sbr
+.\Debug\SignalDialog.sbr
+.\Debug\SkinColorsDialog.sbr
+.\Debug\StationInfoDialog.sbr
+.\Debug\SwitchBoard.sbr
+.\Debug\SwitchboardNameDialog.sbr
+.\Debug\SwitchboardView.sbr
+.\Debug\TConfig.sbr
+.\Debug\TDFile.sbr
+.\Debug\tdscript.sbr
+.\Debug\TimeTblView.sbr
+.\Debug\ToolsView.sbr
+.\Debug\track.sbr
+.\Debug\TrackDialog.sbr
+.\Debug\TrackScriptDialog.sbr
+.\Debug\Train.sbr
+.\Debug\TrainInfoDialog.sbr
+.\Debug\TrainInfoList.sbr
+.\Debug\TriggerDialog.sbr
+.\Debug\trsim.sbr
+.\Debug\TSignal.sbr
+.\Debug\TVector.sbr]
+Creating command line "bscmake.exe @C:\Users\Mephisto\AppData\Local\Temp\RSPEFEE.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+traindir3.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

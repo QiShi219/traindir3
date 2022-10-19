@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1463256016 source:d:\cg20191129 available\cg\train director demo\traindir3src\traindir3\appmainloop.cpp
+	<stdio.h>
+	"HostThread.h"
+	"ClientConnection.h"
+
+1455737800 d:\cg20191129 available\cg\train director demo\traindir3src\traindir3\hostthread.h
+	<windows.h>
+	<pthread.h>
+	<signal.h>
+
+1463631706 d:\cg20191129 available\cg\train director demo\traindir3src\traindir3\clientconnection.h
+	"HostLock.h"
+
+1463631686 d:\cg20191129 available\cg\train director demo\traindir3src\traindir3\hostlock.h
+
